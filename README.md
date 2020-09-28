@@ -3,17 +3,17 @@ Here, we attempt a recent implementation of weakly supervised learning model, as
 Below here are some steps to reconstruct our pipeline
 ## Requirements
 - Python 3.6
-- Keras
-- Knime 4.1
+- [Keras](https://keras.io/)
+- [Knime 4.1](https://www.knime.com/)
 ## Knime weak supervision for drug abuses modeling
-- Install [Knime]
+- Install [Knime](https://www.knime.com/)
 - Add Python 
-- Run Weakly_Supervised_Model.knwf in Knime. Once the model is loaded, go to Knime/ Preference/ Python. If you have Conda installed, select New Environment.
+- Run Weakly_Supervised_Model.knwf in Knime. Once the model is loaded, go to Knime/ Preference/ Python. If you have [Conda](https://docs.conda.io/en/latest/) installed, select New Environment.
 - Run the model with train.csv as model input, rules.csv as model rules, and add DEA list to model references to obtain the desired results
 ## LSTM model for relevancy classification
-1, Pre-trained python model: lstm.py
-2, Jupiter Notebook for Glove 50-d embedding case: lstm.ipynb
-3, LSTM model weight: lstm.model
+1, Pre-trained python model: lstm.py  
+2, Jupiter Notebook for Glove 50-d embedding case: lstm.ipynb  
+3, LSTM model weight: lstm.model  
 ## Results
 Cocaine data/ Heroine Data/ General Data/ MJ classified Data
 ## Sample Results
